@@ -2,7 +2,7 @@
 
 Will automatically redirect to either:
 
-[Live Status Page](https://status.netz0.com)
+[Live Status Page](https://netz0.com/status)
 
 Or
 
