@@ -1,4 +1,4 @@
-# Opens Netz0 the Status Page
+# Opens the Netz0 Status Pages
 
 Will automatically redirect to either:
 
