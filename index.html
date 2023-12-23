@@ -24,7 +24,7 @@
 
             function checkElement() {
                 return new Promise((resolve, reject) => {
-                    fetch('https://netz0.com/status')
+                    fetch('https://netz0.com/status/check')
                         .then(response => response.text())
                         .then(html => {
                             const parser = new DOMParser();
@@ -93,7 +93,7 @@
 <body>
 <div class="container text-center mt-5">
     <div class="row justify-content-center mb-3">
-            <img src="https://status.netz0.com/logo.svg" alt="Netz0 Logo" class="img-fluid" style="max-width: 200px; height: auto;">
+        <img src="https://status.netz0.com/logo.svg" alt="Netz0 Logo" class="img-fluid" style="max-width: 200px; height: auto;">
     </div>
 
     <div class="spinner-border" role="status"></div>
@@ -105,8 +105,8 @@
     <div class="container text-center mt-5">
         <div class="alert alert-warning" role="alert">
             <p><strong>JavaScript is not enabled.</strong> Please select a URL:</p>
-            <p>Full Status Page: <a href="https://netz0.com/status" class="alert-link">https://netz0.com/status</a></p>
-            <p>Emergency Status Page: <a href="https://netz0.network" class="alert-link">https://netz0.network</a></p>
+            <p>Live Status Page: <a href="https://netz0.com/status" class="alert-link">https://netz0.com/status</a></p>
+            <p>Network Status Page: <a href="https://netz0.network" class="alert-link">https://netz0.network</a></p>
         </div>
     </div>
 </noscript>
